@@ -5,8 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sungp</groupId>
-    <artifactId>PicCommon</artifactId>
+    <artifactId>pic-common</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>common-core</module>
+    </modules>
+
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -51,8 +56,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.3</version>
             </plugin>
         </plugins>
     </build>
+
 
 </project>
